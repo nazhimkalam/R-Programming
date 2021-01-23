@@ -43,7 +43,12 @@ print(class(l1))
 
 
 # MATRICES
+# A matrix is a 2 dimensional rectangular data set. It can be created using a vector
+# input to the matrix function. 
 
+m1 = matrix(c('a','b','c','d','e','f','g'), nrow = 2, ncol = 3, byrow = TRUE)
+print(class(m1))
+print(m1)
 
 # ARRAYS
 
