@@ -35,6 +35,11 @@ print(class(apple))
 print(apple[3])
 
 # LISTS
+# A list is an R-Object which can contain many different types of elements inside
+# it like vectors, functions and even another list inside it.
+
+l1 = list(c('a','b','c'), "Nazhim", 10.3, TRUE, sin)
+print(class(l1))
 
 
 # MATRICES
