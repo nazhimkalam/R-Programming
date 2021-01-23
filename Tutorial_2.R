@@ -57,7 +57,23 @@ print(class(a1))
 print(a1)
 
 # FACTORS
+# Factor in R is also known as a categorical variable that stores both string
+# and integer data values as levels
 
+
+# Create a vector as input.
+data = c("Red","Blue","Yellow","Blue","Red","Blue","Yellow","Green","Yellow","Green")
+
+print(data)
+print(is.vector(data))
+print(is.factor(data))
+
+# Apply the factor function.
+factor_data = factor(data)
+
+print(factor_data)
+print(is.vector(factor_data))
+print(is.factor(factor_data))
 
 # DATA FRAMES
 
