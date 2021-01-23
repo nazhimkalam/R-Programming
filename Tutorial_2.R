@@ -52,6 +52,9 @@ print(m1)
 
 # ARRAYS
 
+a1 = array(c('red','blue'), dim = c(3, 3, 2))
+print(class(a1))
+print(a1)
 
 # FACTORS
 
