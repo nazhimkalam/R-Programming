@@ -77,4 +77,33 @@ print(is.factor(factor_data))
 
 # DATA FRAMES
 
+# A data frame is a table or a two-dimensional array-like structure in which
+# each column contains values of one variable and each row contains one set of 
+# values from each column.
+
+BMI = data.frame(
+  gender = c("Male", "Male", "Female"),
+  height = c(152, 120, 130),
+  weight = c(41, 65, 98),
+  age = c(8, 16, 22)
+)
+
+print(class(BMI))
+print(BMI)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
